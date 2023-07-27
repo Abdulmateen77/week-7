@@ -27,10 +27,10 @@ function App() {
                         <InitUser />
                         <Routes>
                             <Route path={"/addcourse"} element={<AddCourse />} />
-                            <Route path={"/course/:courseId"} element={<Course />} />
-                            <Route path={"/courses"} element={<Courses />} />
-                            <Route path={"/signin"} element={<Signin />} />
-                            <Route path={"/signup"} element={<Signup />} />
+                            <Route path={"/course/:courseId"} element={<course />} />
+                            <Route path={"/courses"} element={<courses />} />
+                            <Route path={"/signin"} element={<signin />} />
+                            <Route path={"/signup"} element={<signup />} />
                             <Route path={"/"} element={<Landing />} />
                         </Routes>
                     </Router>
